@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
+    <title>Inventory</title>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -27,18 +27,31 @@
             </div>
         </nav>
     </header>
-    <div class="content-home">
-        <h1>WELCOME</h1>
-        <p>SIDP merupakan aplikasi sistem inventory dan penjualan berbasis website</p>
-        <a href=""><button class="read-more">READ MORE</button></a>
+    <div class="table-container">
+        <table class="blue-table">
+            <thead>
+                <tr style="height: 61px;">
+                    <th>Kolom</th>
+                    <th>Kode Produk</th>
+                    <th>Nama Produk</th>
+                    <th>Stok</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Row 1</td>
+                    <td>PROD001</td>
+                    <td>Produk A</td>
+                    <td>100</td>
+                </tr>
+                <tr>
+                    <td>Row 2</td>
+                    <td>PROD002</td>
+                    <td>Produk B</td>
+                    <td>75</td>
+                </tr>
+            </tbody>
+        </table>
     </div>
-    <footer>
-        <div class="footer-container">
-            <div class="footer-content">
-                <p>SIDP</p>
-                <p>Kelompok 4 RPL IP</p>
-            </div>
-        </div>
-    </footer>
 </body>
 </html>
